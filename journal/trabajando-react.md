@@ -1,0 +1,1 @@
+no hace falta loaders para json en la version 4 de webpack
