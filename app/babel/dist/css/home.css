@@ -1,0 +1,14 @@
+
+
+body {
+
+	font-family: arial;
+	text-align: center;
+	background-image: linear-gradient(to bottom right, purple, red);
+	color: white;
+	min-height: 100vh;
+
+	display: grid;
+	align-items: center;
+	align-content: center;
+}
