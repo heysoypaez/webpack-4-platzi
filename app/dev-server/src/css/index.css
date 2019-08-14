@@ -1,0 +1,55 @@
+
+
+body {
+
+	text-align: center;
+	background-image: linear-gradient(to bottom right, darkred 30%, red 70%);
+	color: white;
+	min-height: 100vh;
+
+	display: grid;
+	align-items: center;
+	align-content: center;
+
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+
+	font-size: 50px;
+	animation: 1000ms beat infinite;	
+	font-family: arial;
+
+}
+
+@keyframes beat {
+	
+	0% {
+		transform: scale(1.1);
+	}
+
+	50% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0.9);
+	}
+
+
+}
+
+
+
+/*
+Reto:
+
+leer documentacion y hacer 5 cosas nuevas
+
+
+;
+*/
