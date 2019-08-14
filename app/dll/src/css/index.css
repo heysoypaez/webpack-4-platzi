@@ -1,0 +1,70 @@
+
+/*HTML tags
+---------------*/
+	
+
+@font-face {
+  font-family: "open_sansregular";
+  src: url("../fonts/OpenSans-Regular-webfont.eot");
+  src: url("../fonts/OpenSans-Regular-webfont.eot?#iefix") format("embedded"),
+    url("../fonts/OpenSans-Regular-webfont.woff") format("woff"),
+    url("../fonts/OpenSans-Regular-webfont.ttf") format("truetype"),
+    url("../fonts/OpenSans-Regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+
+	text-align: center;
+	background-image: linear-gradient(to bottom right, darkred 30%, red 70%);
+	color: white;
+	min-height: 100vh;
+
+	display: grid;
+	align-items: center;
+	align-content: center;
+	font-family: "open_sansregular";
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	font-size: 50px;
+	animation: 1000ms beat infinite;	
+	font-family: "open_sansregular";
+}
+
+/*Layout Classes
+------------------*/
+
+.pokemon {
+	animation: 1000ms beat infinite;
+	width: 200px;
+}
+
+/*Animations keyframes
+-----------------------*/
+
+@keyframes beat {
+	
+	0% {
+		transform: scale(1.1);
+	}
+
+	50% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0.9);
+	}
+
+
+}
+
+@import './postcss.css'
